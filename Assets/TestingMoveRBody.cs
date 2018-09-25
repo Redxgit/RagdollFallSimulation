@@ -13,6 +13,8 @@ public class TestingMoveRBody : MonoBehaviour {
 	[SerializeField] private FromAnimationToRagdoll observer;
 
 	[SerializeField] private bool moving;
+
+	public bool Debugging;
 	private float eTimeCorrecting;
 
 	void Start() {
@@ -38,9 +40,9 @@ public class TestingMoveRBody : MonoBehaviour {
 		body.gameObject.SetActive(true);
 	}
 	private void FixedUpdate() {
-		if (!moving) return;
+		if (!moving && !Debugging) return;
 		eTimeCorrecting += Time.fixedDeltaTime;
-		if (eTimeCorrecting > 1f) moving = false;
+		if (eTimeCorrecting > 1f && !Debugging) moving = false;
 		body.AddForceAtPosition((targetPosition.position - positionToAddForce.position)* force, positionToAddForce.position);
 	}
 }

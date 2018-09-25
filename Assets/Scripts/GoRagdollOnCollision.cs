@@ -12,19 +12,22 @@ public class GoRagdollOnCollision : MonoBehaviour {
 	void Update() { }
 
 	private void OnTriggerEnter(Collider other) {
-		if (other.transform.CompareTag("Obstacle") || other.transform.CompareTag("CollidersPlayer")) {
+		//if (other.transform.CompareTag("Obstacle") || other.transform.CompareTag("CollidersPlayer")) {
+		if (other.transform.CompareTag("Obstacle")) {
 			Debug.Log("TriggerEnter");
-			controller.GoRagdoll();			
+			controller.GoRagdoll();
 		}
 	}
 
 	private void OnCollisionEnter(Collision other) {
-		if (!other.transform.CompareTag("Obstacle")&& !other.transform.CompareTag("CollidersPlayer")) return;
-		Debug.Log("CollisionEnter");
-		controller.GoRagdoll();
+		//if (!other.transform.CompareTag("Obstacle")&& !other.transform.CompareTag("CollidersPlayer")) return;
+		if (other.transform.CompareTag("Obstacle")) {
+			Debug.Log("CollisionEnter");
+			controller.GoRagdoll();
+		}
 	}
 
 	private void Reset() {
-		controller = GetComponent<FromAnimationToRagdoll>();
+			controller = GetComponent<FromAnimationToRagdoll>();
+		}
 	}
-}
