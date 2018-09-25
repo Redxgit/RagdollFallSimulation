@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
@@ -16,6 +17,10 @@ public class FromAnimationToRagdoll : MonoBehaviour {
 
 	[SerializeField] private float forceToAdd;
 	private bool isOnRagdoll;
+	
+	public Action GoingRagdoll = delegate {  };
+	
+	public Action ReturnToAnimation = delegate {  };
 
 	// Use this for initialization
 	void Start() {
@@ -37,6 +42,7 @@ public class FromAnimationToRagdoll : MonoBehaviour {
 		}
 
 		anim.enabled = true;
+		ReturnToAnimation.Invoke();
 	}
 
 	public void GoRagdoll() {
@@ -48,6 +54,7 @@ public class FromAnimationToRagdoll : MonoBehaviour {
 		}
 
 		anim.enabled = false;
+		GoingRagdoll.Invoke();
 	}
 
 	public void StartWalking() {
@@ -80,5 +87,13 @@ public class FromAnimationToRagdoll : MonoBehaviour {
 	private void Reset() {
 		anim = GetComponent<Animator>();
 		rbodies = GetComponentsInChildren<Rigidbody>();
+	}
+
+	[ContextMenu("ForceRagdoll")]
+	private void ForceRagdoll() {
+		anim.enabled = false;
+		for (int i = 0; i < rbodies.Length; i++) {
+			rbodies[i].isKinematic = false;
+		}
 	}
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Redx\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Redx\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_RagdollFallSimulation.982558576.00" t="ExcludeRecursive" />
+    <e p="D:\Redx\Desktop\UnityUAH\Ragdoll\Ragdoll\RagdollFallSimulation" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="GatherAccelerometerData.cs" t="Include" />
+        <e p="PushRigidbodiesTowardsPos.cs" t="Include" />
+        <e p="RigidbodyMoveRagdoll.cs" t="Include" />
+        <e p="RotateAndMoveRBTowardsTransform.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="AddForcesToRBodies.cs" t="Include" />
+          <e p="FromAnimationToRagdoll.cs" t="Include" />
+          <e p="GoRagdollOnCollision.cs" t="Include" />
+          <e p="SimRootMotion.cs" t="Include" />
+        </e>
+        <e p="TestingMoveRBody.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RagdollFallSimulation.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
