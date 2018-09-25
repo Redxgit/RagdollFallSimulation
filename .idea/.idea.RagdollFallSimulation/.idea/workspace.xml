@@ -266,6 +266,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SearchEverywhereHistoryKey" value="gathe&#9;FILE&#9;file://D:/Redx/Desktop/UnityUAH/Ragdoll/Ragdoll/RagdollFallSimulation/Assets/GatherAccelerometerData.cs&#10;rotate&#9;null&#9;null&#10;from&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,12 +306,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537868896844</updated>
-      <workItem from="1537868901616" duration="11591000" />
+      <workItem from="1537868901616" duration="12324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11591000" />
+    <option name="totallyTimeSpent" value="12324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,7 +324,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />

@@ -1,0 +1,4 @@
+W --> anim to walk
+S --> anim to Idle
+F --> Reset pos, enable anim and go kinematic
+P --> Save accelerometer data (WIP)
