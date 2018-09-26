@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: defce07bf5e434848b0f317d4c14bf60, type: 3}
+  m_Name: DefaultParams
+  m_EditorClassIdentifier: 
+  Parameters:
+  - LowTwistLimit: -40
+    HighTwistLimit: 25
+    SwingTwistLimit: 25
+  - LowTwistLimit: -20
+    HighTwistLimit: 70
+    SwingTwistLimit: 20
+  - LowTwistLimit: -80
+    HighTwistLimit: 0
+    SwingTwistLimit: 0
+  - LowTwistLimit: -10
+    HighTwistLimit: 10
+    SwingTwistLimit: 5
+  - LowTwistLimit: -70
+    HighTwistLimit: 10
+    SwingTwistLimit: 50
+  - LowTwistLimit: -90
+    HighTwistLimit: 0
+    SwingTwistLimit: 40

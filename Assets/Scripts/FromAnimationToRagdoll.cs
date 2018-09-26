@@ -17,10 +17,10 @@ public class FromAnimationToRagdoll : MonoBehaviour {
 
 	[SerializeField] private float forceToAdd;
 	private bool isOnRagdoll;
-	
-	public Action GoingRagdoll = delegate {  };
-	
-	public Action ReturnToAnimation = delegate {  };
+
+	public Action GoingRagdoll = delegate { };
+
+	public Action ReturnToAnimation = delegate { };
 
 	// Use this for initialization
 	void Start() {
@@ -50,7 +50,7 @@ public class FromAnimationToRagdoll : MonoBehaviour {
 		isOnRagdoll = true;
 		for (int i = 0; i < rbodies.Length; i++) {
 			rbodies[i].isKinematic = false;
-			rbodies[i].AddForce(transform.forward * forceToAdd);
+			//	rbodies[i].AddForce(transform.forward * forceToAdd);
 		}
 
 		anim.enabled = false;
