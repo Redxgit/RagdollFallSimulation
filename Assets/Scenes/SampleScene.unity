@@ -2218,13 +2218,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   observers:
-  - {fileID: 712749062}
+  - {fileID: 624593673}
   recordingInfo: 0
   deltaPosition: []
   deltaAngles: []
   gravityDir: []
   deltaT: []
-  objToTrack: {fileID: 2074865598}
+  objToTrack: {fileID: 1993274340}
+  windowSizes: 
+  commentaryChar: 37
+  isFall: 0
   lastTime: 0
   distanceThreshold: 0.003
 --- !u!4 &623367789
@@ -2404,7 +2407,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 624593666}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 727ddfd7be9776349ba1509cbc5f2164, type: 3}
   m_Name: 
@@ -4256,10 +4259,10 @@ MonoBehaviour:
   body: {fileID: 975159633}
   targetPosition: {fileID: 860061862}
   positionToAddForce: {fileID: 1340587964}
-  force: 100
+  force: 150
   observer: {fileID: 624593673}
   moving: 0
-  Debugging: 0
+  Debugging: 1
 --- !u!136 &975159631
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4982,7 +4985,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1122658008}
   m_LocalRotation: {x: -0.27293822, y: -0.42961845, z: -0.15841216, w: 0.8460723}
-  m_LocalPosition: {x: 0.87, y: 0.21, z: 0.26}
+  m_LocalPosition: {x: 0.767, y: 0.191, z: 0.284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 23875209}
@@ -5115,10 +5118,10 @@ MonoBehaviour:
   body: {fileID: 1132125881}
   targetPosition: {fileID: 1255240001}
   positionToAddForce: {fileID: 1808987650}
-  force: 100
+  force: 150
   observer: {fileID: 624593673}
   moving: 0
-  Debugging: 0
+  Debugging: 1
 --- !u!136 &1132125879
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5716,7 +5719,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1255240000}
   m_LocalRotation: {x: -0.98513395, y: -0.15270247, z: 0.05812228, w: 0.053056348}
-  m_LocalPosition: {x: -0.558, y: -0.043, z: -0.029}
+  m_LocalPosition: {x: -0.53, y: 0.204, z: -0.076}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 23875209}
@@ -6010,10 +6013,10 @@ MonoBehaviour:
   body: {fileID: 1132125881}
   targetPosition: {fileID: 1122658009}
   positionToAddForce: {fileID: 1272202274}
-  force: 100
+  force: 150
   observer: {fileID: 624593673}
   moving: 0
-  Debugging: 0
+  Debugging: 1
 --- !u!136 &1272202276
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6800,10 +6803,10 @@ MonoBehaviour:
   body: {fileID: 1529344213}
   targetPosition: {fileID: 1547626888}
   positionToAddForce: {fileID: 975159629}
-  force: 100
+  force: 150
   observer: {fileID: 624593673}
   moving: 0
-  Debugging: 0
+  Debugging: 1
 --- !u!136 &1529344211
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6903,7 +6906,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547626887}
   m_LocalRotation: {x: -0.49330685, y: -0.12536204, z: -0.6956597, w: 0.50694215}
-  m_LocalPosition: {x: -0.263, y: 0.04, z: -0.062}
+  m_LocalPosition: {x: -0.201, y: 0.062, z: 0.289}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495438038}
@@ -8043,6 +8046,9 @@ MonoBehaviour:
   gravityDir: []
   deltaT: []
   objToTrack: {fileID: 0}
+  windowSizes: 
+  commentaryChar: 37
+  isFall: 0
   lastTime: 0
   distanceThreshold: 0
 --- !u!1 &1932554270
@@ -8879,11 +8885,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!4 &2074865598 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4479346262592262, guid: 90393fb62000b9b43a4a66152ac00f84,
-    type: 2}
-  m_PrefabInternal: {fileID: 413791084}
 --- !u!1 &2083819896 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: 982a75f9363ecae488abc4752035569c,

@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e99df2a-9392-4547-ab2a-cb8783b4ef08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RagdollFallSimulation/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RagdollFallSimulation/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RagdollFallSimulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RagdollFallSimulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ForwardForceWhenRagdoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ForwardForceWhenRagdoll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GatherAccelerometerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GatherAccelerometerData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FromAnimationToRagdoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FromAnimationToRagdoll.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoRagdollOnCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GoRagdollOnCollision.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,40 +24,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="17" />
+          <entry key="cs" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="17" />
+          <entry key="C#" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4550" />
+          <entry key="cs" value="6397" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4550" />
+          <entry key="C#" value="6397" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/SOs/CharacterJointParams.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding>
-                <marker date="1537950286399" expanded="true" signature="56:150" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SOs/CharacterJointParamsSO.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,17 +111,73 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/ForwardForceWhenRagdoll.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
               <folding>
                 <marker date="1537962499339" expanded="false" signature="6:78" ph="..." />
                 <marker date="1537962499339" expanded="true" signature="133:1121" ph="{...}" />
                 <marker date="1537962499339" expanded="true" signature="621:711" ph="{...}" />
                 <marker date="1537962499339" expanded="true" signature="741:1085" ph="{...}" />
                 <marker date="1537962499339" expanded="true" signature="785:1082" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/GatherAccelerometerData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="147" column="23" lean-forward="true" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+              <folding>
+                <marker date="1537976843598" expanded="false" signature="6:140" ph="..." />
+                <marker date="1537976843598" expanded="true" signature="195:4955" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="913:1178" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="1072:1175" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="1212:1522" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="1554:1725" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="1755:2518" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="1802:1838" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="1935:1977" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="2571:2859" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="2608:2759" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="2796:2856" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="2888:4618" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="3065:3110" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="3317:4548" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="3364:4477" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="3693:4472" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="3741:4058" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="4477:4544" ph="{...}" />
+                <marker date="1537976843598" expanded="true" signature="4669:4953" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathUtils.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+              <folding>
+                <marker date="1537976777670" expanded="true" signature="6:66" ph="..." />
+                <marker date="1537976777670" expanded="true" signature="98:1488" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="166:482" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="212:464" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="546:694" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="591:676" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="637:672" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="740:906" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="801:827" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="854:890" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="954:1206" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="1087:1141" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="1265:1486" ph="{...}" />
+                <marker date="1537976777670" expanded="true" signature="1367:1421" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -207,6 +246,7 @@
     <setting file="file://$PROJECT_DIR$/../../../DownloadedRagdoll/Ragdoll Super/Ragdoll Super/Assets/Scripts/CharacterUpright.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../DownloadedRagdoll/ActiveRagdollPhysics/Assets/Scripts/main/CharacterUpright.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadParamsFromSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SOs/CharacterJointParams.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RandomizeObstaclePos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RigidbodyMoveRagdoll.cs" root0="FORCE_HIGHLIGHTING" />
@@ -230,7 +270,6 @@
         <option value="$PROJECT_DIR$/Assets/RigidbodyMoveRagdoll.cs" />
         <option value="$PROJECT_DIR$/Assets/RotateAndMoveRBTowardsTransform.cs" />
         <option value="$PROJECT_DIR$/Assets/TestingMoveRBody.cs" />
-        <option value="$PROJECT_DIR$/Assets/GatherAccelerometerData.cs" />
         <option value="$PROJECT_DIR$/Assets/SOs/CharacterJointParams.cs" />
         <option value="$PROJECT_DIR$/Assets/SOs/CharacterJointParamsSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadParamsFromSO.cs" />
@@ -239,6 +278,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GoRagdollOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TestingMoveRBody2.cs" />
         <option value="$PROJECT_DIR$/Assets/ForwardForceWhenRagdoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/GatherAccelerometerData.cs" />
       </list>
     </option>
   </component>
@@ -248,8 +289,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -272,7 +313,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file://D:/Redx/Desktop/UnityUAH/Ragdoll/Ragdoll/RagdollFallSimulation/Assets/TestingMoveRBody.cs&#10;from&#9;FILE&#9;file://D:/Redx/Desktop/UnityUAH/Ragdoll/Ragdoll/RagdollFallSimulation/Assets/Scripts/FromAnimationToRagdoll.cs&#10;gathe&#9;FILE&#9;file://D:/Redx/Desktop/UnityUAH/Ragdoll/Ragdoll/RagdollFallSimulation/Assets/GatherAccelerometerData.cs&#10;rotate&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="gather&#9;FILE&#9;file://D:/Redx/Desktop/UnityUAH/Ragdoll/Ragdoll/RagdollFallSimulation/Assets/GatherAccelerometerData.cs&#10;test&#9;FILE&#9;file://D:/Redx/Desktop/UnityUAH/Ragdoll/Ragdoll/RagdollFallSimulation/Assets/TestingMoveRBody.cs&#10;from&#9;FILE&#9;file://D:/Redx/Desktop/UnityUAH/Ragdoll/Ragdoll/RagdollFallSimulation/Assets/Scripts/FromAnimationToRagdoll.cs&#10;gathe&#9;FILE&#9;file://D:/Redx/Desktop/UnityUAH/Ragdoll/Ragdoll/RagdollFallSimulation/Assets/GatherAccelerometerData.cs&#10;rotate&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -315,12 +356,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537868896844</updated>
       <workItem from="1537868901616" duration="18949000" />
-      <workItem from="1537957445609" duration="2005000" />
+      <workItem from="1537957445609" duration="5399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20954000" />
+    <option name="totallyTimeSpent" value="24348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,7 +373,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
@@ -412,13 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="46" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GatherAccelerometerData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -561,13 +595,65 @@
     <entry file="file://$PROJECT_DIR$/Assets/ForwardForceWhenRagdoll.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
           <folding>
             <marker date="1537962499339" expanded="false" signature="6:78" ph="..." />
             <marker date="1537962499339" expanded="true" signature="133:1121" ph="{...}" />
             <marker date="1537962499339" expanded="true" signature="621:711" ph="{...}" />
             <marker date="1537962499339" expanded="true" signature="741:1085" ph="{...}" />
             <marker date="1537962499339" expanded="true" signature="785:1082" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+          <folding>
+            <marker date="1537976777670" expanded="true" signature="6:66" ph="..." />
+            <marker date="1537976777670" expanded="true" signature="98:1488" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="166:482" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="212:464" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="546:694" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="591:676" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="637:672" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="740:906" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="801:827" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="854:890" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="954:1206" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="1087:1141" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="1265:1486" ph="{...}" />
+            <marker date="1537976777670" expanded="true" signature="1367:1421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GatherAccelerometerData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="147" column="23" lean-forward="true" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+          <folding>
+            <marker date="1537976843598" expanded="false" signature="6:140" ph="..." />
+            <marker date="1537976843598" expanded="true" signature="195:4955" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="913:1178" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="1072:1175" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="1212:1522" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="1554:1725" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="1755:2518" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="1802:1838" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="1935:1977" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="2571:2859" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="2608:2759" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="2796:2856" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="2888:4618" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="3065:3110" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="3317:4548" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="3364:4477" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="3693:4472" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="3741:4058" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="4477:4544" ph="{...}" />
+            <marker date="1537976843598" expanded="true" signature="4669:4953" ph="{...}" />
           </folding>
         </state>
       </provider>

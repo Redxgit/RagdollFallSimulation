@@ -17,6 +17,7 @@
           <e p="FromAnimationToRagdoll.cs" t="Include" />
           <e p="GoRagdollOnCollision.cs" t="Include" />
           <e p="LoadParamsFromSO.cs" t="Include" />
+          <e p="MathUtils.cs" t="Include" />
           <e p="SimRootMotion.cs" t="Include" />
           <e p="TestingMoveRBody2.cs" t="Include" />
         </e>
