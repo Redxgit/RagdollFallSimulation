@@ -9,6 +9,7 @@
         <e p="ForwardForceWhenRagdoll.cs" t="Include" />
         <e p="GatherAccelerometerData.cs" t="Include" />
         <e p="PushRigidbodiesTowardsPos.cs" t="Include" />
+        <e p="RandomizeObstaclePos.cs" t="Include" />
         <e p="RigidbodyMoveRagdoll.cs" t="Include" />
         <e p="RotateAndMoveRBTowardsTransform.cs" t="Include" />
         <e p="Scripts" t="Include">
@@ -17,6 +18,7 @@
           <e p="GoRagdollOnCollision.cs" t="Include" />
           <e p="LoadParamsFromSO.cs" t="Include" />
           <e p="SimRootMotion.cs" t="Include" />
+          <e p="TestingMoveRBody2.cs" t="Include" />
         </e>
         <e p="SOs" t="Include">
           <e p="CharacterJointParams.cs" t="Include" />

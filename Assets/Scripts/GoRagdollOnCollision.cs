@@ -14,7 +14,6 @@ public class GoRagdollOnCollision : MonoBehaviour {
 	private void OnTriggerEnter(Collider other) {
 		//if (other.transform.CompareTag("Obstacle") || other.transform.CompareTag("CollidersPlayer")) {
 		if (other.transform.CompareTag("Obstacle")) {
-			Debug.Log("TriggerEnter: "+ other.gameObject.name  );
 			controller.GoRagdoll();
 		}
 	}
@@ -22,7 +21,6 @@ public class GoRagdollOnCollision : MonoBehaviour {
 	private void OnCollisionEnter(Collision other) {
 		//if (!other.transform.CompareTag("Obstacle")&& !other.transform.CompareTag("CollidersPlayer")) return;
 		if (other.transform.CompareTag("Obstacle")) {
-			Debug.Log("CollisionEnter");
 			controller.GoRagdoll();
 		}
 	}

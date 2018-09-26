@@ -46,6 +46,7 @@ public class FromAnimationToRagdoll : MonoBehaviour {
 	}
 
 	public void GoRagdoll() {
+		if (!enabled) return;
 		if (isOnRagdoll) return;
 		isOnRagdoll = true;
 		for (int i = 0; i < rbodies.Length; i++) {
